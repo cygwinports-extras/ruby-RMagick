@@ -12,7 +12,7 @@ Build requirements:
 (besides corresponding -devel packages)
   cygwin-1.5.24-2
   binutils-20060817-1
-  cygport-0.2.11-1
+  cygport-0.3.5-1
   gcc-core-3.4.4-3
   make-3.81-1
   sed-4.1.5-2
@@ -26,15 +26,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack ruby-magick-1.15.5-X-src.tar.bz2
+  unpack ruby-magick-1.15.8-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./ruby-magick-1.15.5-X.cygport all
+  cygport ./ruby-magick-1.15.8-X.cygport all
 
 This will create:
-  /usr/src/ruby-magick-1.15.5-X-src.tar.bz2
-  /usr/src/ruby-magick-1.15.5-X.tar.bz2
+  /usr/src/ruby-magick-1.15.8-X-src.tar.bz2
+  /usr/src/ruby-magick-1.15.8-X.tar.bz2
 
 -------------------------------------------
 
@@ -743,16 +743,19 @@ Files included in the binary package:
   /usr/share/RMagick/wet_floor.rb.html
   /usr/share/RMagick/writing_mode01.rb.html
   /usr/share/RMagick/writing_mode02.rb.html
-  /usr/share/doc/Cygwin/ruby-magick-1.15.5.README
-  /usr/share/doc/ruby-magick-1.15.5/ChangeLog
-  /usr/share/doc/ruby-magick-1.15.5/README.txt
+  /usr/share/doc/Cygwin/ruby-magick-1.15.8.README
+  /usr/share/doc/ruby-magick-1.15.8/ChangeLog
+  /usr/share/doc/ruby-magick-1.15.8/README.txt
 
 ------------------
 
 Port Notes:
 
+----- version 1.15.8-1 -----
+Version bump.
+
 ----- version 1.15.5-1 -----
-Version bump
+Version bump.
 
 ----- version 1.15.2-1 -----
 Initial release for Cygwin.
