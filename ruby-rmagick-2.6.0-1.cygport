@@ -1,0 +1,9 @@
+inherit ruby
+
+DESCRIPTION="Ruby ImageMagick bindings"
+HOMEPAGE="http://rmagick.rubyforge.org/"
+SRC_URI="mirror://rubyforge/rmagick/RMagick-${PV}.tar.bz2"
+SRC_DIR="RMagick-${PV}"
+
+RDOC_SOURCE="lib"
+RDOC_MODULE="Magick"
