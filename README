@@ -5,13 +5,13 @@ and the ImageMagick image processing library.
 
 Runtime requirements:
   cygwin-1.5.25-15
-  libMagick1-6.4.3.8-1
+  libMagick1-6.4.8.2-1
   ruby-1.8.7_p72-2
 
 Build requirements:
 (besides corresponding -devel packages)
   binutils-20080624-2
-  cygport-0.4.1-1
+  cygport-0.4.3-1
   gcc-core-3.4.4-3
   make-3.81-1
   sed-4.1.5-2
@@ -25,15 +25,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack ruby-magick-2.7.0-X-src.tar.bz2
+  unpack ruby-magick-2.8.0-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./ruby-magick-2.7.0-X.cygport all
+  cygport ./ruby-magick-2.8.0-X.cygport all
 
 This will create:
-  /usr/src/ruby-magick-2.7.0-X-src.tar.bz2
-  /usr/src/ruby-magick-2.7.0-X.tar.bz2
+  /usr/src/ruby-magick-2.8.0-X-src.tar.bz2
+  /usr/src/ruby-magick-2.8.0-X.tar.bz2
 
 -------------------------------------------
 
@@ -55,7 +55,7 @@ Files included in the binary package:
   /usr/lib/ruby/site_ruby/1.8/rvg/text.rb
   /usr/lib/ruby/site_ruby/1.8/rvg/transformable.rb
   /usr/lib/ruby/site_ruby/1.8/rvg/units.rb
-  /usr/share/doc/ruby-rmagick-2.7.0/ChangeLog
+  /usr/share/doc/ruby-rmagick-2.8.0/ChangeLog
   /usr/share/ri/1.8/site/Magick/Draw/affine-i.yaml
   /usr/share/ri/1.8/site/Magick/Draw/arc-i.yaml
   /usr/share/ri/1.8/site/Magick/Draw/bezier-i.yaml
@@ -419,6 +419,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 2.8.0-1 -----
+Version bump.
 
 ----- version 2.7.0-1 -----
 Version bump.
