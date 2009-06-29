@@ -1,5 +1,5 @@
 category: Graphics Ruby
-requires: cygwin libMagick1 ruby
+requires: libMagick1 ruby
 sdesc: "Ruby ImageMagick bindings"
 ldesc: "RMagick is an interface between the Ruby programming language 
 and the ImageMagick image processing library."
